@@ -6,7 +6,7 @@ class Weather {
      * Constructor to get the current configuration
      */
     public function __construct(
-        private array $config = parse_ini_file('config.ini')
+        private array $config
     ) {}
 
 
@@ -98,5 +98,5 @@ class Weather {
 
 }
 
-$Weather = new Weather();
+$Weather = new Weather(parse_ini_file('config.ini'));
 $Weather->getWeather();
