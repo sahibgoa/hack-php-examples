@@ -25,12 +25,14 @@ To run the programs, follow the instructions below:-
   hh_client
 ```
 
-5. If they don't, then run the following in the same directory (you can choose any unused port number for the 'p' field)
+5. Create the configuration file using the format of sample_config.ini and name this file 'config.ini' (you'll need to create an account on openweathermap.org to obtain an API key for the weather program).
+
+6. If they don't, then run the following in the same directory (you can choose any unused port number for the 'p' field)
 ```
   hhvm -m server -p 8080
 ```
 
-6. Go to your browser and type the following (for the weather example)
+7. Go to your browser and type the following (for the weather example)
 ```
   localhost:8080/getweather.php
 ```
