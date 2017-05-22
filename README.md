@@ -35,4 +35,4 @@ To run the programs, follow the instructions below:-
   localhost:8080/getweather.php
 ```
 
-# If you did everything correctly, you should see the correct output!
+If you did everything correctly, you should see the correct output!
